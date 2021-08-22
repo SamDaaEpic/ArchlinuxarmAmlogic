@@ -14,12 +14,9 @@ steps to run archlinuxarm on amlogic devices
 
 5.run the command "sudo pacman -Syu --force" to forcefully update the system because its too old. and then reboot (say Y to any promts), and then run the command sudo pacman -S linux-aarch64-rc to install the rc kernel.
 
-6.use another computer with linux and copy the “iniramfs-linux.img” from the archlinux rootfs boot directory(not from the boot parition) and also copy the "Image" file from the archlinux rootfs (again not from the boot partiton) and paste it in the archlinuxarm boot parition (remove the old “initramfs-linux.img” and also remove the old “Image” file from the archlinux boot parition).
+6.use another computer with linux and copy the “iniramfs-linux.img” from the [archlinuxarmROOTParition/boot/iniramfs-linux.img] and paste it in the [archlinuxarmBOOTParition] (remove the old initramfs-linux.img from the archlinuxarmBOOTPartition), after that copy the “Image" from the [archlinuxarmROOTParition/boot/Image] and paste it in the [archlinuxarmBOOTParition] (remove the old "Image" from the archlinuxarmBOOTPartition),
 
 7. reboot the system into archlinux and welcome to archlinuxarm running on your tiny android tv box.
-
-
-
 
 P.S if you want to change the system lanuage from russian to english follow these steps
 1. edit the file in /etc/locale.gen and uncomment the first locale and save and exit and then edit the file in /etc/locale.conf and replace the russian locale to the one you uncommented in the /etc/locale.gen file and run the command "locale-gen" in the terminal and reboot and your done
