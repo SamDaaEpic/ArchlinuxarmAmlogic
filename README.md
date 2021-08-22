@@ -10,7 +10,7 @@ steps to run archlinuxarm on amlogic devices
 
 3.remeber the password for the live and root user is "woofwoof" (without the tags)
 
-4.run the command "sudo pacman -Syy" to refresh the mirrorlist and then run the "sudo pacman -S archlinuxarm-keyring" to and then run the command "sudo pacman-key --init" and also run the command "sudo pacman-key --populate archlinxuarm" to initialize the pacman keyring.
+4.run the command "sudo pacman -Syy" to refresh the mirrorlist and then run the "sudo pacman -S archlinuxarm-keyring" too and then run the command "sudo pacman-key --init" and also run the command "sudo pacman-key --populate archlinxuarm" to initialize the pacman keyring.
 
 5.run the command "sudo pacman -Syu --force" to forcefully update the system because its too old. and then reboot (say Y to any promts), and then run the command sudo pacman -S linux-aarch64-rc to install the rc kernel.
 
