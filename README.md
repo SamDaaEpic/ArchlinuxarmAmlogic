@@ -2,7 +2,7 @@
 steps to run archlinuxarm on amlogic devices
 
 
-## PS: This guide is very old, and you could probably get of with installing archlinuxarm from the offical https://archlinuxarm.org website.
+## PS: This guide is very old, and you could probably get off with installing archlinuxarm from the offical https://archlinuxarm.org website.
 
 
 1. download the archlinuxarm old russian version .img.xz file  http://mirror.yandex.ru/puppyrus/2a-aarch64/img/  and flash it to an sdcard with balenaetcher or rufus
